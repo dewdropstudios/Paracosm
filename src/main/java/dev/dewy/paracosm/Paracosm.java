@@ -1,6 +1,7 @@
 package dev.dewy.paracosm;
 
 import dev.dewy.paracosm.items.group.ParacosmItemGroup;
+import dev.dewy.paracosm.items.init.ParacosmItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.EventPriority;
@@ -29,6 +30,7 @@ public class Paracosm
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         eventBus.register(this);
+        eventBus.register(new ParacosmItems());
     }
 
     // Event Handlers
