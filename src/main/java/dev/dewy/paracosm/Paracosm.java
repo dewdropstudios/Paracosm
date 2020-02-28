@@ -1,5 +1,7 @@
 package dev.dewy.paracosm;
 
+import dev.dewy.paracosm.items.group.ParacosmItemGroup;
+import net.minecraft.item.ItemGroup;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -20,6 +22,7 @@ public class Paracosm
     // Constants
     public static final String MODID = "paracosm";
     public static final String NAME = "Paracosm";
+    public static final ItemGroup ITEM_GROUP = new ParacosmItemGroup();
 
     public Paracosm()
     {
