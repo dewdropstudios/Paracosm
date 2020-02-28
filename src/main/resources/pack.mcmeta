@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "description": "Paracosm resources.",
+        "pack_format": 5,
+        "_comment": "All of the textures, sounds, models and more which make up Paracosm."
+    }
+}
