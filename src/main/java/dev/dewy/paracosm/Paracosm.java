@@ -1,5 +1,6 @@
 package dev.dewy.paracosm;
 
+import dev.dewy.paracosm.blocks.init.ParacosmBlocks;
 import dev.dewy.paracosm.items.group.ParacosmItemGroup;
 import dev.dewy.paracosm.items.init.ParacosmItems;
 import net.minecraft.item.ItemGroup;
@@ -30,6 +31,7 @@ public class Paracosm
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         eventBus.register(this);
+        eventBus.register(new ParacosmBlocks());
         eventBus.register(new ParacosmItems());
     }
 

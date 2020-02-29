@@ -17,6 +17,7 @@ import java.util.function.Supplier;
 public class ParacosmItems
 {
     private static final List<Supplier<? extends Item>> ITEM_REGISTRY = new ArrayList<>();
+    public static final List<Supplier<? extends Item>> ITEMBLOCK_REGISTRY = new ArrayList<>();
 
     public static final RegistryObject<BasicItem> PP_SMOL_ITEM = registerItem("pp_smol");
 
@@ -25,6 +26,7 @@ public class ParacosmItems
     {
         IForgeRegistry<Item> registry = event.getRegistry();
 
+        ITEMBLOCK_REGISTRY.stream().map(Supplier::get).forEach(registry::register);
         ITEM_REGISTRY.stream().map(Supplier::get).forEach(registry::register);
     }
 
