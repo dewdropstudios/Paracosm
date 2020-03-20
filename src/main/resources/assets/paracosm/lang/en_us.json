@@ -1,0 +1,47 @@
+{
+    "itemGroup.paracosm": "Paracosm",
+
+    "block.paracosm.pp_smol_block": "Test Block (PP Smol)",
+    "item.paracosm.pp_smol": "Test Item (PP Smol)",
+
+    "item.paracosm.platinum_ingot": "Platinum Ingot",
+    "item.paracosm.tungsten_ingot": "Tungsten Ingot",
+    "item.paracosm.cobalt_ingot": "Cobalt Ingot",
+    "item.paracosm.titanium_ingot": "Titanium Ingot",
+    "item.paracosm.thulium_shard": "Thulium Shard",
+    "item.paracosm.chromium_shard": "Chromium Shard",
+    "item.paracosm.nanothread": "Chromium-Thulium Nanothread",
+
+    "item.paracosm.compressed_platinum": "Compressed Platinum",
+    "item.paracosm.compressed_tungsten": "Compressed Tungsten",
+    "item.paracosm.compressed_cobalt": "Compressed Cobalt",
+    "item.paracosm.compressed_titanium": "Compressed Titanium",
+    "item.paracosm.compressed_thulium": "Compressed Thulium",
+    "item.paracosm.compressed_chromium": "Compressed Chromium",
+
+    "item.paracosm.flight_essence": "Flight Essence",
+    "item.paracosm.light_essence": "Light Essence",
+    "item.paracosm.night_essence": "Night Essence",
+    "item.paracosm.fright_essence": "Fright Essence",
+    "item.paracosm.sight_essence": "Sight Essence",
+    "item.paracosm.chaos_essence": "Chaos Essence",
+
+    "block.paracosm.paracosmic_dirt": "Paracosmic Dirt",
+    "block.paracosm.paracosmic_coarse_dirt": "Paracosmic Coarse Dirt",
+    "block.paracosm.paracosmic_sand": "Paracosmic Sand",
+    "block.paracosm.paracosmic_gravel": "Paracosmic Gravel",
+
+    "block.paracosm.corrupted_log": "Corrupted Log",
+    "block.paracosm.windswept_log": "Windswept Log",
+    "block.paracosm.paracosmic_log": "Paracosmic Log",
+    "block.paracosm.corrupted_planks": "Corrupted Planks",
+    "block.paracosm.windswept_planks": "Windswept Planks",
+    "block.paracosm.paracosmic_planks": "Paracosmic Planks",
+
+    "block.paracosm.paracosmic_snow": "Paracosmic Snow",
+    "block.paracosm.paracosmic_snow_layer": "Paracosmic Snow Layer",
+    "block.paracosm.paracosmic_ice": "Paracosmic Ice",
+    "block.paracosm.paracosmic_packed_ice": "Paracosmic Packed Ice",
+
+    "block.paracosm.compressed_platinum_block": "Compressed Platinum"
+}

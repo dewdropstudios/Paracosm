@@ -24,7 +24,8 @@ public class Paracosm
     // Constants
     public static final String MODID = "paracosm";
     public static final String NAME = "Paracosm";
-    public static final ItemGroup ITEM_GROUP = new ParacosmItemGroup();
+
+    public static final ItemGroup PARACOSM_ITEM_GROUP = new ParacosmItemGroup();
 
     public Paracosm()
     {
